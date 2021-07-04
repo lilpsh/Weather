@@ -1,0 +1,15 @@
+.saved-cities {
+  display: flex;
+  // justify-content: center;
+  // align-items: center;
+  flex-direction: column;
+
+  &__li {
+    padding: 2px;
+    color: grey;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 900;
+    list-style-type: "-";
+  }
+}

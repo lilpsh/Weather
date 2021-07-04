@@ -1,0 +1,49 @@
+.city-weather {
+  &__cities-list {
+    padding: 0;
+    margin: 0;
+    width: 300px;
+    position: absolute;
+    background-color: #eee;
+    border: 1px solid #888;
+    border-radius: 5px;
+    padding: 0 10px;
+    list-style: none;
+  }
+
+  &__input {
+    outline: none;
+  }
+
+  &__search {
+    color: grey;
+    font-size: 14px;
+    font-family: monospace;
+    background-color: #fff;
+    border: 1px #888 solid;
+    margin-left: 2px;
+    outline: none;
+    transition: 0.5s;
+
+    &:active {
+      background-color: #888;
+      color: #fff;
+    }
+  }
+
+  &__cities-list-item {
+    margin: 4px 0;
+
+    &:hover {
+      background-color: #888;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+
+  &__cities-list {
+    color: grey;
+    font-size: 14px;
+    font-family: monospace;
+  }
+}

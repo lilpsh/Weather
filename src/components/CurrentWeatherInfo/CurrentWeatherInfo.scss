@@ -1,0 +1,37 @@
+.city__wrapper {
+  margin: 10vh 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &-name {
+    color: grey;
+    font-size: 30px;
+    font-family: monospace;
+  }
+
+  &-temperature {
+    color: grey;
+    font-size: 20px;
+    font-family: monospace;
+  }
+
+  &-weather {
+    color: grey;
+    font-size: 20px;
+    font-family: monospace;
+  }
+
+  &-wind {
+    color: grey;
+    font-size: 20px;
+    font-family: monospace;
+  }
+
+  &-direction {
+    color: grey;
+    font-size: 20px;
+    font-family: monospace;
+  }
+}
